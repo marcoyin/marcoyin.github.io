@@ -21,8 +21,14 @@ uint32_t tListCount (tList * list)
 	return list->nodeCount;
 }
 
+
+
+
 tNode * tListFirst (tList * list)
 {
+	tNode * node1 = (tNode *)0;
+	
+	
 	tNode * node = (tNode *)0;
 	
 	if (list->nodeCount != 0)
