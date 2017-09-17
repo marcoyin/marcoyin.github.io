@@ -18,7 +18,10 @@ void tListInit (tList * list)
 
 uint32_t tListCount (tList * list)
 {
+	int i;
+	i=0;
 	return list->nodeCount;
+	
 }
 
 
